@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbdefb;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #90caf9;
+}
+
+/* Code block styling */
+pre {
+  background-color: #fafafa;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+code {
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Animation for elements */
+.MuiPaper-root,
+.MuiButton-root,
+.MuiIconButton-root {
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Smooth fade for error messages */
+.MuiTypography-root[color="error"] {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Better focus states */
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1976d2;
+  border-width: 2px;
+}
+
+/* Button hover effects */
+.MuiButton-contained:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Chip animations */
+.MuiChip-root {
+  transition: all 0.2s ease-in-out;
+}
+
+.MuiChip-root:hover {
+  transform: scale(1.05);
+}
+
+/* Code area styling */
+.code-area {
+  font-family: Consolas, 'Courier New', monospace !important;
+  line-height: 1.5;
+  tab-size: 4;
+}
