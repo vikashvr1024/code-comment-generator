@@ -50,13 +50,13 @@ npm install
 1. Start the backend server:
 ```bash
 cd backend
-python app.py
+npm start
 ```
 
 2. Start the frontend development server:
 ```bash
 cd frontend
-npm run dev
+npm start
 ```
 
 The application will be available at `http://localhost:3000`
