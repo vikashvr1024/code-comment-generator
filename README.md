@@ -36,7 +36,7 @@ cd code-comment-generator
 2. Install backend dependencies:
 ```bash
 cd backend
-pip install -r requirements.txt
+npm install
 ```
 
 3. Install frontend dependencies:
